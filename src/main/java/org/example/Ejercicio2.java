@@ -36,5 +36,7 @@ public class Ejercicio2 {
             azulejo = ((ancho1 * altura1) / (ancho2 * altura2));
                     System.out.println("Se necesitan " + azulejo + " azulejos");
         }
+
+        //Lo que hace el programa es calcular los azulejos que necesitamos para una pared, dandole nosotros el ancho y el alto de cada atributo, si algun atributo es 0, el azulejo es cuadrado o el azulejo es mas grande que la pared, nos saldra del programa, sino nos dira cuantos azulejos necesitamos para la pared
     }
 }
