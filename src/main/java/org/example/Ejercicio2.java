@@ -24,10 +24,12 @@ public class Ejercicio2 {
 
         if (ancho2 == altura2) {
             System.out.println("El azulejo no puede ser cuadrado");
+            System.exit(0);
         }
         if ( ancho1 * altura1 < ancho2 * altura2 )
         {
             System.out.println("El azulejo no puede ser mas grande que la pared");
+            System.exit(0);
         }
         if ( ancho1 * altura1 > ancho2 * altura2 )
         {
