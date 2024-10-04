@@ -10,8 +10,8 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
       /* Ejercicio1 ejercicio1 = new Ejercicio1();
        ejercicio1.ejercicio1();*/
-            /* Ejercicio2 ejercicio2 = new Ejercicio2();
-            ejercicio2.ejercicio2();*/
+             Ejercicio2 ejercicio2 = new Ejercicio2();
+            ejercicio2.ejercicio2();
 
 
     }

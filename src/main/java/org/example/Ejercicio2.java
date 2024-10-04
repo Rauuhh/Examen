@@ -17,6 +17,11 @@ public class Ejercicio2 {
         System.out.println("Introduce el altura del azulejo");
         float altura2 = entrada.nextInt();
         float azulejo = 0;
+
+        if (ancho1 < 1 || ancho2 < 1 || altura1 <1 || altura2 <1 )
+        {System.out.println("El azulejo o la pared no puede medir 0 o menos en todas sus direcciones");
+        System.exit(0);}
+
         if (ancho2 == altura2) {
             System.out.println("El azulejo no puede ser cuadrado");
         }
